@@ -1,4 +1,4 @@
-# Ordis Universe 技术论文大纲
+﻿# Ordis Universe 技术论文大纲
 
 **工作标题**: Ordis: A GPU-Accelerated Framework for Emergent Intelligence with Antifragile Dynamics
 

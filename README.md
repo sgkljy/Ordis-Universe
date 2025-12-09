@@ -1,4 +1,4 @@
-# Ordis Universe: Emergent AI Research Data & Papers
+﻿# Ordis Universe: Emergent AI Research Data & Papers
 # Ordis宇宙：涌现式AI研究数据与论文
 
 **Ordis** is a GPU-accelerated framework for simulating emergent intelligence in virtual ecosystems. This repository contains research papers, experimental data, and verification tools from the V3.5 series experiments.

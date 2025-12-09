@@ -1,4 +1,4 @@
-# Reading Guide / 阅读指南
+﻿# Reading Guide / 阅读指南
 
 This guide helps you navigate the repository and understand each file's purpose.
 本指南帮助你了解仓库结构，理解每个文件的用途。
