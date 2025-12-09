@@ -2,6 +2,8 @@
 
 **Ordis** is a GPU-accelerated framework for simulating emergent intelligence in virtual ecosystems. This repository contains research papers, experimental data, and verification tools from the V3.5 series experiments.
 
+> **New here? / 新来的？** Read the [**GUIDE.md**](GUIDE.md) for a detailed bilingual explanation of every file. / 阅读 [**GUIDE.md**](GUIDE.md) 获取每个文件的详细双语说明。
+
 ## Key Findings
 
 | Experiment | Pass Rate | Significance |
