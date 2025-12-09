@@ -1,0 +1,41 @@
+{
+  "version": "V3.5.37",
+  "timestamp": "2025-12-09T02:48:17.279645",
+  "seed": 42,
+  "config_hash": "9a052b02c345",
+  "git_commit": "unknown",
+  "config_path": "C:\\Users\\Administrator\\Desktop\\AI赛艇\\Ordis-创世沙盘\\Ordis液态宇宙引擎v3.4.0\\config_v3529_winter.yaml",
+  "system_info": {
+    "platform": "Windows",
+    "platform_version": "10.0.26100",
+    "python_version": "3.10.11",
+    "torch_version": "2.7.1+cu128",
+    "cuda_available": true,
+    "cuda_version": "12.8",
+    "gpu_name": "NVIDIA GeForce RTX 5080"
+  },
+  "module_states": {
+    "meta_rules_H1": true,
+    "communication_H4": true,
+    "emergent_combo_H2": true,
+    "oims_memory_H3": true,
+    "l0_ecosystem": true,
+    "combat_kernel": true,
+    "replay_protocol": true,
+    "crisis_governor": true,
+    "macro_system": true,
+    "macro_legacy_mode": false,
+    "oims_ucb_credit": true
+  },
+  "replay": {
+    "enabled": true,
+    "keyframe_interval": 200
+  },
+  "rng": {
+    "isolated": true,
+    "base_seed": 42,
+    "action_seed": 42,
+    "spawn_seed": 1042,
+    "env_seed": 2042
+  }
+}

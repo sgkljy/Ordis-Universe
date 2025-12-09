@@ -1,0 +1,4 @@
+seed,steps,alive,combos,overall,pass,time_s,combos_accepted,rej_significance,alive_min,beta_mean,gini_final,gini_mean,gene_moran_final,gene_moran_mean,loop_rate_final,loop_rate_mean,shannon_H_final,shannon_H_mean,field_entropy_final,field_entropy_mean,lineage_count_final,max_generation_final,dominant_ratio_final,spatial_variance_final
+42,5000,179,194,0.7187,1,1161.8,194,3005,177,0.466,0.2812,0.262,0.1336,0.0341,5.7,4.4083,1.084,1.0877,0.0543,0.0446,36,7,0.0782,101.5704
+SUMMARY,5000,179.00,194.00,0.72,1/1,1162,194,3005,177,0.47,0.2812,0.2620,0.1336,0.0341,5.7000,4.4083,1.0840,1.0877,0.0543,0.0446,36.0000,7.0000,0.0782,101.5704
+PASS_RATE,1/1,≥160,≥50,≥0.65,100%,,,,,,,,,,,,,,,,,,,

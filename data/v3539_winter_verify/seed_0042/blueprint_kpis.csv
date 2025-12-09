@@ -1,0 +1,11 @@
+metric,final,mean
+gini,0.0975,0.0538
+gene_moran,0.2943,0.0245
+loop_rate,5.2000,4.8417
+shannon_H,0.2300,0.2239
+field_entropy,0.0543,0.0441
+lineage_count,6.0000,21.7083
+max_generation,27.0000,15.9167
+dominant_ratio,0.3959,0.2573
+spatial_variance,33.3457,38.4943
+comm_mi,0.0251,0.1214
