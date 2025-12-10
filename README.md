@@ -1,6 +1,34 @@
 ﻿# Ordis Universe: Emergent AI Research Data & Papers
 # Ordis宇宙：涌现式AI研究数据与论文
 
+> ⚠️ **IMPORTANT / 重要声明**
+>
+> **Ordis does NOT use any Large Language Models (GPT/Claude/LLaMA).**
+>
+> **Ordis 不使用任何大语言模型（GPT/Claude/LLaMA）。**
+>
+> This is NOT "Stanford Generative Agents" with LLM role-playing. All behaviors emerge from 6 atomic actions + simple rules + GPU tensor computation. No pre-trained knowledge, no API calls, 1/1000 the cost of LLM approaches.
+>
+> 这不是用LLM扮演角色的"斯坦福小镇"。所有行为从6种原子动作+简单规则+GPU张量运算中涌现。无预训练知识，无API调用，成本仅为LLM方案的1/1000。
+
+---
+
+## What Makes Ordis Different / Ordis的本质区别
+
+| System / 系统 | Tech / 技术路线 | Intelligence Source / 智能来源 | Cost / 成本 |
+|---------------|-----------------|-------------------------------|-------------|
+| Stanford Generative Agents / 斯坦福小镇 | LLM-driven / LLM驱动 | GPT-4 pre-training / GPT预训练 | $$$$ (API calls) |
+| Minecraft / 我的世界 | Player-driven / 玩家驱动 | Human creativity / 人类创造 | N/A |
+| **Ordis** | **Rule emergence / 规则涌现** | **Evolves from zero / 从0演化** | **$** (GPU only) |
+
+**One-sentence summary / 一句话总结**:
+
+We let 200 "brainless" AI agents start with 6 simple actions, and they spontaneously evolved 36 lineages, 194 strategies, and votable "laws"—without GPT, without scripts.
+
+我们让200个"无脑"AI从6个简单动作开始，自发演化出36个家族、194种策略、可投票修改的"法律"——没用GPT，没有预设剧本。
+
+---
+
 **Ordis** is a GPU-accelerated framework for simulating emergent intelligence in virtual ecosystems. This repository contains research papers, experimental data, and verification tools from the V3.5 series experiments.
 
 **Ordis** 是一个GPU加速的虚拟生态系统涌现智能模拟框架。本仓库包含V3.5系列实验的研究论文、实验数据和验证工具。
