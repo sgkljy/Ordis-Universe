@@ -1,9 +1,10 @@
 # Ordis Universe V3.5 Experiment Data
 
 **Version**: V3.5.39 (Paper Ready)
-**Date**: 2025-12-09
+**Date**: 2025-12-15
 **Data Freeze**: 2025-12-09T12:00:00 UTC+8
 **Repository**: https://github.com/sgkljy/Ordis-Universe
+**DOI**: https://doi.org/10.5281/zenodo.17904506
 
 ---
 
