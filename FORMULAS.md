@@ -49,7 +49,6 @@ $$C = \sqrt{N_{cap}}$$
 $$\Sigma = H + \ln(N) \approx 6.27$$
 
 - **CV**: 5.2%
-- **Note**: Old value 5.94 deprecated, 6.27 is GPT-audited calibration
 
 ---
 
@@ -82,7 +81,6 @@ $$\Omega = 3H - G + 3S \approx 3.85$$
 
 - **CV**: 13.4%
 - **Use**: Phase state indicator
-- **Note**: Old value 17/6=2.833 deprecated
 
 ### Omega Family Variants
 
