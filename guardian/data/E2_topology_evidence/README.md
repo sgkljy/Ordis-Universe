@@ -11,11 +11,14 @@
 
 ## Experiment Summary
 
-| Group | N_cap | Seeds | Mean Alive | Mean H | guardian_interventions |
-|-------|-------|-------|------------|--------|------------------------|
-| D | 50 | 5 | 28.80 | 0.62 | **0** |
-| A | 100 | 5 | 93.20 | 0.24 | **0** |
-| B | 200 | 5 | 179.00 | 0.55 | **0** |
+| Group | N_cap | Seeds | Mean Alive | Mean H | Mean Gini | guardian_interventions |
+|-------|-------|-------|------------|--------|-----------|------------------------|
+| D | 50 | **15** | 34.6 | 1.84 | 0.40 | **0** |
+| A | 100 | **15** | 69.9 | 1.69 | 0.40 | **0** |
+| B | 200 | **10** | 179.4 | 0.88 | 0.25 | **0** |
+| C | 400 | **15** | 289.7 | 1.14 | 0.51 | **0** |
+
+**Total: 55 seeds across 4 N_cap scales**
 
 ## Significance
 
@@ -31,14 +34,16 @@ Guardian V7 later adopted 13.53 as its target BECAUSE experiments revealed this 
 
 ## Files
 
-- `group_A_Ncap100_signoff.csv` - N_cap=100 experiment results
-- `group_B_Ncap200_signoff.csv` - N_cap=200 experiment results
-- `group_D_Ncap50_signoff.csv` - N_cap=50 experiment results
+- `group_A_Ncap100_signoff.csv` - N_cap=100 experiment results (15 seeds)
+- `group_B_Ncap200_signoff.csv` - N_cap=200 experiment results (10 seeds)
+- `group_C_Ncap400_signoff.csv` - N_cap=400 experiment results (15 seeds)
+- `group_D_Ncap50_signoff.csv` - N_cap=50 experiment results (15 seeds)
 
 ## Verification
 
-To verify `guardian_interventions = 0`, check column 74 in each CSV file.
+To verify `guardian_interventions = 0`, check the `guardian_interventions` column in each CSV file.
 
 ---
 
+*Updated 2026-01-05: Rebuilt complete signoff.csv files from original seed data*
 *Released for academic transparency in response to GitHub Issue #5*
