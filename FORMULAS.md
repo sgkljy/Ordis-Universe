@@ -2,7 +2,7 @@
 
 > **Ordis Project** - A Theoretical Framework for Emergence in Multi-Agent Systems
 >
-> Author: **Liu** | First Published: 2025-12 | DOI: [10.5281/zenodo.18145700](https://zenodo.org/records/18145700)
+> Author: **Liu** | First Published: 2025-12 | DOI: [10.5281/zenodo.18087742](https://zenodo.org/records/18087742)
 
 ---
 
@@ -155,7 +155,7 @@ All formulas validated with:
 - **Cross-Scale**: N_cap ∈ {50, 100, 200, 400}
 - **Reproducibility**: All raw data available on Zenodo
 
-**Data Repository**: [Zenodo V2.0](https://zenodo.org/records/18145700) (568.9 MB)
+**Data Repository**: [Zenodo](https://zenodo.org/records/18087742)
 
 ---
 
@@ -169,8 +169,8 @@ If you use these formulas in your research, please cite:
   title        = {Liu's Laws of Emergent Intelligence: Conservation Principles in Multi-Agent Systems},
   year         = {2025},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.18145700},
-  url          = {https://zenodo.org/records/18145700}
+  doi          = {10.5281/zenodo.18087742},
+  url          = {https://zenodo.org/records/18087742}
 }
 ```
 
