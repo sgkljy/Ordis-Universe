@@ -1,5 +1,6 @@
 # Ordis Universe
 
+<h3 align="center">🔴 你们可以不承认我，但你们否定不了真理的存在！ 🔴</h3>h3>
 The Liu-Ordis Framework for Emergence Physics
 
 ---
