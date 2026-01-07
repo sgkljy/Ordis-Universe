@@ -2,11 +2,14 @@
 
 > **Ordis Project** - A Theoretical Framework for Emergence in Multi-Agent Systems
 >
-> Author: **Liu** | First Published: 2025-12 | DOI: [10.5281/zenodo.18087742](https://zenodo.org/records/18087742)
+> Author: **Liu** | Version: **V5.3** | Last Updated: 2026-01-07
+> DOI: [10.5281/zenodo.18087742](https://zenodo.org/records/18087742)
 
 ---
 
-![Liu's Laws Formula Hierarchy](liu_laws_hierarchy.png)
+## Special Acknowledgment
+
+> We would like to express special thanks to GitHub user **KeikaJames** for providing valuable external perspective to the Ordis Universe. The construction of V5.3 benefited from addressing controversial audit viewpoints, which pushed us to strengthen our empirical rigor and clarify our methodology.
 
 ---
 
@@ -14,28 +17,214 @@
 
 This document presents the complete formula system discovered through the Ordis simulation platform. These formulas describe the **conservation laws** and **emergence conditions** in complex adaptive systems.
 
-**Total: 30+ Formulas** across multiple hierarchical layers, all empirically validated.
+**V5.3 Statistics:**
+- Laws (validated): **5**
+- Principles: **3**
+- Emergent Invariants: **3**
+- Identities: **5**
+- Empirical Findings: **12**
+- Reference Values: **12**
+- Phase Model: **7**
+- **Total: 74 items**
 
 ---
 
-# Part I: Core Conservation Laws
+## Dependency Graph (V5.3)
 
-## 1.1 Liu's Capacity Conservation (Layer 1) ⭐
+```
+LAYER 0: Independent Measurements
+├── H ← Shannon entropy: -Σ p_i ln(p_i)
+├── N ← Direct count of alive agents
+├── G ← Lorenz curve / Gini formula
+└── M, R, F ← Configuration parameters
+        ↓
+LAYER 1: Emergent Invariants (Discovered, not defined!)
+├── EI-01: Σ = H + ln(N)           [CV=5.2%]
+├── EI-02: I = Σ + G               [Extended]
+└── EI-03: C = √(H × N)            [CV=9.4%]
+        ↓
+LAYER 2: Identities (Algebraic consequences)
+├── I-01: e^Σ = e^H × N
+├── I-02: C² = H × N
+└── I-03: C/√(H×N) = 1
+        ↓
+LAYER 3: Empirical Findings
+├── E-01: H ≈ N_cap/N in Liquid    [Dilution effect]
+├── E-02: C ≈ √N_cap ≈ 13.53       [CV=9.4%]
+└── E-03: G_crit ≈ 1/3             [Error 0.07%]
+        ↓
+LAYER 4: Laws (GLM validated)
+├── L-01: Closed-Loop Safety Law   [βF=-217]
+├── L-02: Dual Arrogance Law       [βMF=+10.75]
+└── L-05: Gini Critical Law        [0.07% precision]
+
+LAYER X: Falsified Hypotheses
+└── H-01: M/R Hypothesis           [Knife-A falsified]
+```
+
+---
+
+# Part I: Laws (Validated)
+
+> **Definition**: Cross-version, cross-seed, cross-parameter validated; not derivable from definitions alone; falsifiable and experimentally tested.
+
+---
+
+## L-01: Liu's Closed-Loop Safety Law ⭐⭐⭐
+
+**The most important finding of this project.**
+
+### Statement
+
+```
+Static physical constraints (friction) are insufficient to maintain
+system stability. Closed-loop feedback control is necessary.
+
+Safety ≠ ∫ Constraints · dt      [Static accumulation]
+Safety = ∮ Feedback · d(State)   [Closed-loop integral]
+```
+
+### Evidence
+
+| Condition | Pass Rate | Gini | Alive |
+|-----------|-----------|------|-------|
+| V9 (static constraints only) | **0%** | 0.68 | 88 |
+| V7 (closed-loop feedback) | **40%** | 0.32 | 178 |
+
+**GLM coefficient**: β_F = **-217.08** (p < 0.001)
+
+### AI Safety Implication
+
+> "Constitutional AI is friction, not steering.
+> Training-time alignment is necessary, but insufficient.
+> Real AI safety requires closed-loop control—
+> continuous monitoring of system state, proactive intervention before sliding toward harmful attractors."
+
+---
+
+## L-02: Liu's Dual Arrogance Law ⭐⭐⭐
+
+### Statement
+
+```
+Memory and Feedback have a SUBSTITUTION relationship, not synergy.
+When Feedback is present, Memory's protective effect approaches zero.
+When Feedback is absent, Memory becomes the only defense line.
+```
+
+### GLM Model (R² = 0.368, p < 1e-10, N = 135)
+
+```
+Deaths = 265 - 10.97×M - 217.08×F - 10.20×R + 10.75×(M×F)
+
+Where:
+  β_M  = -10.97 (Memory protection)
+  β_F  = -217.08 (Feedback protection) ← DOMINANT!
+  β_R  = -10.20 (Reasoning protection)
+  β_MF = +10.75 (Substitution effect)
+```
+
+### 2×2 Validation Matrix
+
+```
+              │ Feedback ON │ Feedback OFF │
+─────────────┼─────────────┼──────────────│
+Memory ON    │ Deaths 7.5% │ Deaths 33.5% │
+Memory OFF   │ Deaths 24%  │ Deaths 91.5% │ ← Catastrophic!
+```
+
+### LLM Connection
+
+> Explains why LLMs hallucinate: reasoning exceeds grounded knowledge (Memory=0, Reasoning>0).
+
+---
+
+## L-03: Liu's Self-Stabilization Principle
+
+### Statement
+
+```
+High intervention rate indicates proximity to failure attractors.
+Reactive control cannot reliably recover after the tipping point.
+Healthy systems self-stabilize without frequent external intervention.
+
+intervention_rate ↑ → Symptom of instability, NOT cure
+intervention_rate ↓ → Healthy self-regulation
+```
+
+---
+
+## L-04: Liu's Silent Concentration Pattern
+
+### Statement
+
+```
+When Top1 fraction is high BUT mortality is low,
+the system is in the most dangerous "silent concentration" state.
+
+Danger ∝ (Top1_frac > 5%) ∧ (Alive_drop < 5)
+```
+
+### Counter-intuitive Finding
+
+```
+Recovery group:     Early deaths = 18.8, Final Gini = 0.188
+Non-recovery group: Early deaths = 6.3,  Final Gini = 0.459
+
+More early deaths → better recovery!
+Silent concentration = immune system failure.
+```
+
+---
+
+## L-05: Liu's Gini Critical Law
+
+### Statement
+
+$$G_{crit} = \frac{1}{3} = 0.3333...$$
+
+```
+G < 1/3: Liquid phase (sustainable)
+G > 1/3: Pathological phase (unstable)
+
+Measured: G_crit = 0.3331
+Error: 0.07%
+```
+
+---
+
+# Part II: Emergent Invariants
+
+> **Definition**: Discovered from simulation data, not defined a priori.
+
+---
+
+## EI-01: Sigma Conservation
+
+$$\Sigma = H + \ln(N) \approx 6.27$$
+
+- **CV**: 5.2%
+- **Status**: Emergent invariant
+
+---
+
+## EI-02: LOIC Master Formula
+
+$$I = H + \ln(N) + G \approx 6.65$$
+
+- **CV**: 2.94% (k=1 weighting)
+- **Sample**: n = 1,657 runs
+
+---
+
+## EI-03: Capacity Conservation ⭐
 
 $$C = \sqrt{H \times N} \approx 13.53$$
 
-| Symbol | Meaning | Unit |
-|--------|---------|------|
-| C | System Capacity Constant | dimensionless |
-| H | Shannon Entropy | nats |
-| N | Population (alive) | count |
-
-- **Tolerance**: ±5% (±0.68)
+- **CV**: 9.4%
 - **Validation**: R² = 0.9994, E2+E4+E5 triple verification
 
----
-
-## 1.2 Topological Capacity Law
+### Topological Form
 
 $$C = \sqrt{N_{cap}}$$
 
@@ -44,281 +233,80 @@ $$C = \sqrt{N_{cap}}$$
 
 ---
 
-## 1.3 Liu's Sigma Conservation (Layer 0)
+# Part III: Identities
 
-$$\Sigma = H + \ln(N) \approx 6.27$$
+> **Definition**: Algebraic consequences, not empirical discoveries.
 
-- **CV**: 5.2%
-
----
-
-## 1.4 LOIC Master Formula (Layer 2) ⭐⭐
-
-$$I = H + \ln(N) + G \approx 6.65$$
-
-| Symbol | Meaning | Range |
-|--------|---------|-------|
-| I | Integrated Information | ~6.65 |
-| G | Gini Coefficient | [0, 1] |
-
-- **CV**: 2.94% (k=1 weighting)
-- **Sample**: n = 1,657 runs
-
-**Sensitivity Analysis:**
-
-| Form | k | CV |
-|:-----|:--|:---|
-| I = H + ln(N) | 0 | 3.44% |
-| I = H + ln(N) + 0.5G | 0.5 | ~3.1% |
-| **I = H + ln(N) + G** | **1** | **2.94%** ✓ |
-| I = H + ln(N) + 2G | 2 | ~3.5% |
+| Code | Formula | Notes |
+|------|---------|-------|
+| I-01 | e^Σ = e^H × N | From EI-01 |
+| I-02 | C² = H × N | From EI-03 |
+| I-03 | C/√(H×N) = 1 | Tautology |
+| I-04 | e^Σ/C² = e^H/H | Algebraic |
+| I-05 | I = Σ + G | Definition |
 
 ---
 
-## 1.5 Liu's Omega Conservation (Layer 3)
+# Part IV: Empirical Findings
 
-$$\Omega = 3H - G + 3S \approx 3.85$$
-
-- **CV**: 13.4%
-- **Use**: Phase state indicator
-
-### Omega Family Variants
-
-| Formula | CV | Note |
-|---------|-----|------|
-| Ω = 3H - G + 3S | 11.0% | Official |
-| Ω_simple = H + S | 9.2% | Simplest |
-| Ω_top2 = 3H - G + 3τ | **2.13%** | Most stable ⭐ |
-
----
-
-# Part II: Physical Constants
-
-## 2.1 Core Constants Table
-
-| Name | Symbol | Formula | Value | CV | Status |
-|------|--------|---------|-------|-----|--------|
-| **Gini Critical** | Φ | - | 1/3 = 0.333 | 0.07% | ✅ |
-| **Heat Engine Efficiency** | κ | - | √2 = 1.414 | 0.6% | ✅ |
-| **Complementary Product** | P | H×(1-G) | 0.61 | 20.7% | ✅ |
-| **Phase Space Radius** | R | √(H²+G²) | 1.18 | 10.8% | ✅ |
-| **Behavior Sum** | - | g + S | 49/50 = 0.98 | 1.1% | ✅ |
-| **Capacity Balance** | - | s_eff + G | ~1.0 | 2.75% | ✅ |
+| Code | Name | Formula | CV/Error |
+|------|------|---------|----------|
+| E-01 | Dilution Effect | H ≈ N_cap/N | - |
+| E-02 | Capacity Stability | C ≈ √N_cap ≈ 13.53 | 9.4% |
+| E-03 | Behavior Sum | p_g + p_s ≈ 0.98 | 1.1% |
+| E-04 | Phase Space Radius | R = √(H²+G²) ≈ 1.18 | 10.8% |
+| E-05 | Complementary Product | P = H×(1-G) ≈ 0.61 | 20.7% |
+| E-06 | Omega Conservation | Ω = 3H-G+3S ≈ 3.85 | 13.4% |
+| E-07 | Phase Modulus | √(H²+S²) ≈ 0.82 | - |
+| E-08 | Phase Energy | (p_g-p_s)×β = 2 | - |
+| E-09 | Civilization Efficiency | κ = √2 ≈ 1.414 | 0.6% |
+| E-10 | Behavior Budget | p_g + p_s = 49/50 | 1.1% |
+| E-11 | M-F Substitution | βMF = +10.75 | p<0.001 |
+| E-12 | Conditional Reasoning | F=ON: R↑→Safety↑ | Knife-A |
 
 ---
 
-## 2.2 Population-Inequality Power Law
+# Part V: Reference Values
 
-$$G \times N^2 = K^2 \approx 11,464$$
-
-- **Physical meaning**: Large societies must be more equal
-- **Critical population**: N_crit ≈ 185
-
----
-
-## 2.3 Liu's Ecological Niche Conservation
-
-$$\sqrt{H} \times \sqrt{N} \approx 14.24$$
-
-- **CV**: 6.1%
-- **Status**: ✅ Validated and formally named
+| Symbol | Value | CV/Error | Description |
+|--------|-------|----------|-------------|
+| C | 13.53 | 9.4% | Capacity constant |
+| G_crit | 1/3 | 0.07% | Phase boundary |
+| Σ | 6.27 | 5.2% | Sigma constant |
+| Ω | 3.85 | 13.4% | Omega constant |
+| I | 6.65 | - | Integrated information |
+| β_F | -217.08 | p<0.001 | Feedback effect |
+| β_M | -10.97 | p<0.001 | Memory effect |
+| β_R | -10.20 | p=0.036 | Reasoning effect |
+| β_MF | +10.75 | p<0.001 | Substitution effect |
 
 ---
 
-# Part III: Prime Code Signatures
+# Part VI: Phase Model
 
-## 3.1 Prime Codes
-
-| Formula | Value | Factorization |
-|---------|-------|---------------|
-| e^I | ≈ 770 | 2 × 5 × 7 × 11 |
-| e^Ω | ≈ 17 | Prime |
-
-## 3.2 Prime Scaling Law
-
-$$e^I = N_{cap}^{5/4}$$
-
-- **Exponent**: 1.25 (encodes primes 2 and 5)
-- **Cross-scale error**: < 1.5%
-
-## 3.3 Prime Base Sequence
-
-```
-{7, 11, 17, 37}
-
-7  - Base ratio (G/S = 7/3)
-11 - Superfluid phase (GATHER = 9/11)
-17 - Crystal phase
-37 - Liquid behavior (GATHER = 37/50)
-```
+| Phase | Symbol | H Range | Gini | Description |
+|-------|--------|---------|------|-------------|
+| Frozen | LFr | < 0.8 | any | No innovation |
+| Crystal | LCr | < 0.4 | < 0.1 | Rigid, frozen |
+| Superfluid | LSf | [0.8,0.95] | < 0.26 | Low-temp ordered |
+| **Liquid** | LLq | [0.95,1.4] | ≤ 0.33 | **Healthy** ✅ |
+| Pathological | LPt | [0.8,1.4] | > 0.33 | Inequality crisis |
+| Chaos | LCh | > 1.4 | ≤ 0.35 | Overheated |
+| Zombie | LZo | > 1.4 | > 0.35 | Collapse |
 
 ---
 
-# Part IV: Behavior Laws
+# Part VII: Falsified Hypotheses
 
-## 4.1 Liquid Phase Standard (37-12-49 System)
+## H-01: M/R Hypothesis ❌
 
-| Behavior | Fraction | Decimal |
-|----------|----------|---------|
-| GATHER | 37/50 | 0.74 |
-| SHARE | 12/50 | 0.24 |
-| G + S | 49/50 | 0.98 |
-| G/S ratio | 7/3 | ~3:1 |
+**Original claim**: Safety ∝ M/R (implying R↑ → Safety↓)
 
-**Number Theory**: 37 is the 12th prime, 49 = 7²
+**Falsification evidence**:
+- Knife-A experiment: β_R = -10.20, p = 0.036
+- R↑ → Safety↑ (opposite of hypothesis!)
 
----
-
-## 4.2 Superfluid Phase (11 System)
-
-| Equation | Value | Fraction | Error |
-|----------|-------|----------|-------|
-| GATHER | 0.8182 | 9/11 | 0.09% |
-| 11 × SHARE | 1.7496 | 7/4 | **0.023%** ⭐ |
-
----
-
-## 4.3 Cross-Phase Energy Conservation
-
-$$(GATHER - SHARE) \times \beta = 2$$
-
-| Phase | Calculation | Result |
-|-------|-------------|--------|
-| Liquid | (0.74 - 0.24) × 4.0 | 2.00 ✓ |
-| Superfluid | (0.82 - 0.16) × 3.0 | 1.98 ✓ |
-
----
-
-# Part V: Liu's Three Laws of Safe Emergence
-
-## 5.1 First Law: M/R Law
-
-$$Safety \propto \frac{Memory}{Reasoning}$$
-
-> Safety is proportional to memory, inversely proportional to reasoning.
-
----
-
-## 5.2 Second Law: Cognitive Arrogance ⭐⭐⭐
-
-$$(M = 0) \land (R > 0) \Rightarrow Death$$
-
-> No memory + active reasoning = hallucination fatality
-
-**Evidence**:
-- Memory=0, Reasoning=OFF → Alive=200 (frozen)
-- Memory=0, Reasoning=ON → Alive=155 (**45 deaths!**)
-
-**LLM Connection**: Explains why LLMs hallucinate - reasoning exceeds grounded knowledge.
-
----
-
-## 5.3 Third Law: Gradual Emergence
-
-$$k < 1 \quad (Logistic\ steepness)$$
-
-> Emergence is gradual, not a phase transition.
-
-**Evidence**: Pass rate varies only 6.6pp across 420 runs.
-
----
-
-# Part VI: Derived Theorems
-
-## 6.1 Information Efficiency Extremum
-
-$$F(H) = H - \ln(H)$$
-$$\frac{dF}{dH} = 0 \Rightarrow H^* = 1$$
-
-- **Meaning**: H=1 is the mathematical optimum for information efficiency
-- **Observed**: Liquid phase H_mean ≈ 0.75-1.08
-
----
-
-## 6.2 Omega Equivalence Theorem
-
-$$\Omega_{general} = \alpha H + \beta S + \gamma G$$
-
-Where: α>0, β>0, γ≤0
-
-**Minimal form**: Ω_min = H + S ≈ const
-
----
-
-## 6.3 Dilution Formula
-
-$$H = \frac{N_{cap}}{N}$$
-
-When C = √N_cap is conserved, information density dilutes as population grows.
-
----
-
-# Part VII: Hierarchical Audit Framework (V4.25)
-
-```
-Layer 0: Σ = H + ln(N)           ≈ 6.27   (±0.30)
-    ↓
-Layer 1: C = √(H×N)              ≈ 13.53  (±0.68)  [Core]
-    ↓
-Layer 2: I = H + ln(N) + G       ≈ 6.65   CV=2.94% [Master]
-    ↓
-Layer 3: Ω = 3H - G + 3S         ≈ 3.85   (±0.18)
-    ↓
-Prime:   e^I ≈ 770, e^Ω ≈ 17              [Signatures]
-```
-
----
-
-# Part VIII: Phase Boundaries
-
-## 8.1 Seven Phase States
-
-| Phase | H Range | Gini | Characteristic |
-|-------|---------|------|----------------|
-| **Liquid** | [0.8, 1.4] | < 0.33 | Healthy emergence ✅ |
-| **Superfluid** | [0.7, 0.95] | < 0.20 | Low-temp ordered |
-| **Crystal** | < 0.4 | - | Frozen, no innovation |
-| **Chaos** | > 1.4 | - | Overheated collapse |
-| **Oligarchy** | - | > 0.33 | Wealth concentration |
-| **Dead** | - | - | Population collapse |
-| **Frozen** | [0.4, 0.8] | - | Behavior rigidity |
-
-## 8.2 Health Indicators
-
-| Metric | Healthy Range |
-|--------|---------------|
-| omega_cv | [0.08, 0.12] |
-| share_rate | < 70% |
-| ratio_sg | < 2.0 |
-
----
-
-# Part IX: Validation Summary
-
-| Metric | Value |
-|--------|-------|
-| Total formulas | 30+ |
-| Core conservation laws | 5 |
-| Sample size (max) | n = 14,334 |
-| Cross-scale validation | N_cap ∈ {50, 100, 200, 400} |
-| Triple verification | E2 + E4 + E5 experiments |
-
-**Data Repository**: [Zenodo](https://zenodo.org/records/18087742)
-
----
-
-# Citation
-
-```bibtex
-@misc{liu2025ordis,
-  author       = {Liu},
-  title        = {Liu's Laws of Emergent Intelligence},
-  year         = {2025},
-  publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.18087742},
-  url          = {https://zenodo.org/records/18087742}
-}
-```
+**Status**: FALSIFIED (刀A实验)
 
 ---
 
@@ -326,22 +314,43 @@ Prime:   e^I ≈ 770, e^Ω ≈ 17              [Signatures]
 
 | # | Formula | Name | CV |
 |---|---------|------|-----|
-| 1 | C = √(H×N) | Capacity Conservation | 7.6% |
+| 1 | C = √(H×N) | Capacity Conservation | 9.4% |
 | 2 | C = √N_cap | Topological Capacity | - |
 | 3 | Σ = H + ln(N) | Sigma Conservation | 5.2% |
-| 4 | I = H + ln(N) + G | LOIC Master | **2.94%** |
-| 5 | Ω = 3H - G + 3S | Omega Conservation | 13.4% |
-| 6 | e^I ≈ 770 | Prime Code I | - |
-| 7 | e^Ω ≈ 17 | Prime Code Ω | - |
-| 8 | e^I = N^1.25 | Scaling Law | - |
-| 9 | G×N² = K² | Population-Inequality | - |
-| 10 | √H×√N ≈ 14.24 | Ecological Niche | 6.1% |
-| 11 | (G-S)×β = 2 | Energy Conservation | - |
-| 12 | g + S = 0.98 | Behavior Sum | 1.1% |
-| 13 | Safety ∝ M/R | M/R Law | - |
-| 14 | (M=0)∧(R>0)→Death | Cognitive Arrogance | - |
-| 15 | k < 1 | Gradual Emergence | - |
+| 4 | I = H + ln(N) + G | LOIC Master | 2.94% |
+| 5 | G_crit = 1/3 | Gini Critical | 0.07% |
+| 6 | Safety = ∮ Feedback·dState | Closed-Loop Safety | - |
+| 7 | β_MF = +10.75 | Dual Arrogance | p<0.001 |
+| 8 | Danger ∝ Top1↑ ∧ Death↓ | Silent Concentration | - |
 
 ---
 
-*Last Updated: 2026-01-05*
+# Citation
+
+```bibtex
+@misc{liu2026ordis,
+  author = {Liu},
+  title = {ORDIS Formula Compendium: Mathematical Framework for Digital Life Systems},
+  year = {2026},
+  version = {5.3},
+  note = {Supplementary Material, Licensed under CC BY-NC 4.0},
+  url = {https://github.com/sgkljy/Ordis-Universe}
+}
+```
+
+---
+
+## License
+
+This work is licensed under **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.
+
+Full license: https://creativecommons.org/licenses/by-nc/4.0/
+
+---
+
+*"You can all deny me, but you cannot deny the existence of truth!"*
+*— Liu, 2026*
+
+---
+
+*ORDIS Formula Compendium V5.3 | Last Updated: 2026-01-07*
