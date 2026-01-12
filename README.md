@@ -11,11 +11,19 @@ The Liu-Ordis Framework for Emergence Physics
 
 All academic papers are available on Zenodo:
 
+### The Liu-Ordis Trilogy (Complete)
+
+| Paper | Title | DOI |
+|-------|-------|-----|
+| **Paper III** | **Final Verdict: 22 Constraints on AI** | [10.5281/zenodo.18222486](https://zenodo.org/records/18222486) |
+| Paper II | First Principles of AI Hallucination | [10.5281/zenodo.18169555](https://zenodo.org/records/18169555) |
+| Paper I | The Verdict on AGI (Capacity Law) | [10.5281/zenodo.18113532](https://zenodo.org/records/18113532) |
+
+### Earlier Works
+
 | Paper | Version | DOI |
 |-------|---------|-----|
-| **First Principles of AI Hallucination** | V1.2 (Latest) | [10.5281/zenodo.18169555](https://zenodo.org/records/18169555) |
 | Liu-Ordis Capacity Law | V2.0 | [10.5281/zenodo.18145700](https://zenodo.org/records/18145700) |
-| Liu-Ordis Capacity Law | V1.0 (with data) | [10.5281/zenodo.18113532](https://zenodo.org/records/18113532) |
 | The Emergence Formula | V1.0 | [10.5281/zenodo.18087742](https://zenodo.org/records/18087742) |
 | Black Hole Hypothesis | V3.6 | [10.5281/zenodo.18068526](https://zenodo.org/records/18068526) |
 
@@ -25,14 +33,32 @@ All academic papers are available on Zenodo:
 
 ## Core Discoveries
 
-```
-Liu-Ordis Capacity Law:     C = √(H × N) ≈ 13.53
-Liu's Critical Threshold:   Gini_critical = 1/3
-Liu's Omega Conservation:   Ω = 3H - G + 3×s_eff ≈ 3.5
+### The 22 Constraints (Paper III)
 
+```
+Part A: Architecture Walls    (4) — Dilution, Capacity, Memory-Bandwidth, Attention
+Part B: Behavior Traps        (7) — Hallucination, Arrogance, Crystal, Rescue, Control...
+Part C: Distribution Curses   (4) — Gini Critical, Tail Risk, Entropy Zone, OOD
+Part D: Emergence Illusions   (3) — No Phase Transition, Diminishing Returns, Dilution
+Part E: Engineering Mirages   (4) — Static Alignment Ceiling, Actuator, Calibration, Gaming
+```
+
+### Fundamental Laws
+
+```
+Liu-Ordis Capacity Law:         C = √(H × N) ≈ 13.53
+Liu's Critical Threshold:       Gini_critical = 1/3 (error 0.07%)
 Liu's Closed-Loop Safety Law:   Feedback is gate variable (β = -217, p<0.001)
 Liu's Dual Arrogance Law:       Safety ∝ Memory × Feedback
-Liu's Cognitive Arrogance:      Reasoning without Memory = Fatal
+Liu's Cognitive Arrogance:      Reasoning without Feedback = Fatal
+```
+
+### Central Theorem
+
+```
+Self-Verification Impossibility:
+  No bounded system can generate outputs AND verify correctness
+  without EXTERNAL FEEDBACK. This is thermodynamic necessity.
 ```
 
 ---
