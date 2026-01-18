@@ -143,6 +143,26 @@ This observation does not prove consciousness can emerge, but it demonstrates th
 | `type_b_seeds_list.csv` | 67 Type B (Ideal State) seeds with full metrics |
 | `all_seeds_quadrant_classification.csv` | All 704 seeds classified into quadrants |
 | `ordis_emergence_twitter.png` | Infographic visualization |
+| `sample_seeds/` | 5 representative Type B seed runs (raw simulation data) |
+
+### Sample Seeds
+
+We provide 5 complete Type B simulation runs for demonstration:
+
+| Folder | N_cap | Seed | Description |
+|--------|-------|------|-------------|
+| `ncap220_seed20008` | 220 | 20008 | Type B exemplar |
+| `ncap224_seed20020` | 224 | 20020 | Type B exemplar |
+| `ncap226_seed20007` | 226 | 20007 | Type B exemplar |
+| `ncap230_seed20009` | 230 | 20009 | Type B exemplar |
+| `ncap234_seed20008` | 234 | 20008 | Type B exemplar |
+
+Each seed folder contains:
+- `signoff.csv` - Summary metrics
+- `tick_agg.jsonl` - Per-tick aggregate statistics
+- `events.jsonl` - Detailed event log
+- `sample_entities.jsonl` - Entity state snapshots
+- `blueprint_kpis.csv` - KPI tracking
 
 ### CSV Schema
 
