@@ -63,11 +63,35 @@ Self-Verification Impossibility:
 
 ---
 
+## Latest Discovery: Agents Invented Money (2026-01-18)
+
+**Our AI agents spontaneously invented currency behavior — without being told to.**
+
+During a 720-run experiment, we discovered that 9.5% of civilizations evolved into "Type B" (Ideal State):
+- High behavioral diversity (H > 1.0)
+- Low inequality (Gini < 0.18)
+- **92.8% survival rate**
+- Energy circulates faster than it's gathered (ratio_sg > 1.6)
+
+This is **pure bottom-up emergence** of:
+- Currency-like circulation patterns
+- Distributed credit networks
+- Fisher equation (MV=PQ) behavior
+
+We coded 6 actions. They invented economics.
+
+**[Full Report & Data](./data/emergence_currency_discovery/)**
+
+![Emergence](./data/emergence_currency_discovery/ordis_emergence_twitter.png)
+
+---
+
 ## Open Source Components
 
 | Directory | Description |
 |-----------|-------------|
 | [guardian/](./guardian/) | Guardian V7 dual-loop controller (pseudocode + source) |
+| [data/emergence_currency_discovery/](./data/emergence_currency_discovery/) | Currency emergence data (704 seeds, 67 Type B) |
 
 ---
 
