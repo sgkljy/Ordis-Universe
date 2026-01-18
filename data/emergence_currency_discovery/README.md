@@ -113,6 +113,58 @@ Type B compensates for limited M with high V!
 
 ---
 
+## Why This Is Real "Primitive Trade" (Not Just Cooperation)
+
+Three mind-bending implications prove this isn't simple "mutual aid" — it's genuine **proto-commerce**:
+
+### 1. They Redefined "Energy" (From Food to Currency)
+
+**In Type A (Oligarchy) eyes:** Energy = Food
+- Logic: "I might get hungry, so I'll hoard what I gather."
+- Result: Energy sits in individual "stomachs," never flowing. A stagnant pool.
+
+**In Type B (Ideal State) eyes:** Energy = Currency
+- Logic: `ratio_sg > 2.0` means every 1 unit of produced energy changes hands **2+ times** before being consumed.
+- This is the **definition of currency**: "A medium of exchange circulating in transactions."
+- They discovered: Hoarding energy is worse than circulating it (investing in social relationships).
+- Energy evolved from "consumable" to "medium of exchange."
+
+### 2. They Invented "Credit" (Emergent Credit System)
+
+We wrote **zero lending code**, but SHARE behavior *is* implicit lending.
+
+When Agent X shares energy with Agent Y:
+- X loses physical energy
+- X gains Y's **"social debt"** (implicit IOU)
+
+In Type B societies with ~50% share rate, this "social debt" becomes **hard currency**:
+- X saves Y today → Y saves Z tomorrow → Z saves X next week
+- This IS a **distributed banking system**!
+- The society's total energy reserve = their capital pool
+- High-frequency SHARE = capital turnover
+
+### 3. They Derived the "Fisher Equation" (Quantity Theory of Money)
+
+The famous economics formula: **MV = PQ** (Money × Velocity = Price × Quantity)
+
+Type B survival rate (204/220) is similar to others, but their **social complexity (entropy H)** is far higher.
+
+This means: They compensate for lower "total money supply (M)" with higher "velocity (V)":
+- **Type A**: Large M, V ≈ 0 → Economic death
+- **Type B**: Slightly smaller M, V = 200%+ → Prosperity
+
+They independently "realized": **Flowing energy is an asset; stagnant energy is just fat.**
+
+### The Bottom Line
+
+We didn't design currency. **Survival pressure + game theory evolution** forced them to invent it.
+
+Just like human history: Nobody decreed seashells were money, but when frequent exchange began, seashells *became* money.
+
+Those Type B seeds essentially **replayed humanity's evolution** — from "self-sufficient subsistence farming" to "specialized market economy" — inside our servers.
+
+---
+
 ## Philosophical Implications
 
 ### The Emergence Proof
