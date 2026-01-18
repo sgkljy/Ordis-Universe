@@ -10,7 +10,7 @@
 
 During a large-scale statistical experiment designed to test mechanism switching hypotheses, we discovered that **Ordis agents spontaneously invented currency-like behavior** without any explicit programming for money, trading, or credit systems.
 
-This is a pure **bottom-up emergence** phenomenon.
+This is yet another **bottom-up emergence** phenomenon observed in Ordis.
 
 ---
 
@@ -130,7 +130,9 @@ If:
 Then:
 - 86 billion neurons + diverse synaptic rules + decades of learning → consciousness emergence
 
-**is not fantasy, but a reasonable extrapolation.**
+**may not be as implausible as it once seemed.**
+
+This observation does not prove consciousness can emerge, but it demonstrates that complex, undesigned behaviors can arise from simple rules under the right constraints — a necessary (though not sufficient) condition for emergence theories of mind.
 
 ---
 
