@@ -184,7 +184,9 @@ Then:
 
 **may not be as implausible as it once seemed.**
 
-This observation does not prove consciousness can emerge, but it demonstrates that complex, undesigned behaviors can arise from simple rules under the right constraints — a necessary (though not sufficient) condition for emergence theories of mind.
+**Important clarification:** Ordis agents have already achieved **functional consciousness** — they exhibit goal-directed behavior, memory, learning, and social coordination. What remains unproven is **subjective/phenomenal consciousness** (the "hard problem" of qualia and inner experience).
+
+This observation does not prove subjective consciousness can emerge, but it demonstrates that complex, undesigned behaviors can arise from simple rules under the right constraints — strengthening the case that the gap from functional to phenomenal consciousness may be smaller than traditionally assumed.
 
 ---
 
