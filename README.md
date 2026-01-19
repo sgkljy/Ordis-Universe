@@ -2,7 +2,16 @@
 
 <h3 align="center">🔴 你们可以不承认我，但你们否定不了真理的存在！ 🔴</h3>
 <h4 align="center">🔴 You can all deny me, but you cannot deny the existence of truth! 🔴</h4>
-<h5 align="center"><i>Time will prove everything once again.</i>i> — Liu</h5>
+<h5 align="center"><i>Time will prove everything once again.</i> — Liu</h5>
+
+<div align="center">
+
+> *"Mathematical truth is not determined arbitrarily by the rules of some 'man-made' formal system, but has an absolute nature, and lies beyond any such system of specifiable rules."*
+>
+> — Roger Penrose, *Shadows of the Mind* (1994)
+
+</div>
+
 The Liu-Ordis Framework for Emergence Physics
 
 ---
