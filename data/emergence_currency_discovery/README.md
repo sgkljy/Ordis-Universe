@@ -171,7 +171,7 @@ Those Type B seeds essentially **replayed humanity's evolution** — from "self-
 
 1. **No top-down design**: We never programmed currency, trading, or credit
 2. **Simple rules + pressure = complex behavior**: 6 actions + survival constraints
-3. **Reproducible**: 67/704 seeds (9.5%) consistently show this pattern
+3. **Macro-reproducible**: Same seed + config = identical trajectory. But emergence itself is self-organizing — 66/704 seeds (9.5%) exhibit this pattern spontaneously, not by design
 4. **Stable**: Type B has 92.8% survival vs 40.5% for Roma pattern
 
 ### Implications for Consciousness Research
