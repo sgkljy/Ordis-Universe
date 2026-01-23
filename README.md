@@ -1,26 +1,98 @@
 # Ordis Universe
 
-<h3 align="center">🔴 你们可以不承认我，但你们否定不了真理的存在！ 🔴</h3>
-<h4 align="center">🔴 You can all deny me, but you cannot deny the existence of truth! 🔴</h4>
-<h5 align="center"><i>Time will prove everything once again.</i> — Liu</h5>
+<h3 align="center">The Liu-Ordis Framework for Emergence Physics</h3>
 
 <div align="center">
 
-> *"Mathematical truth is not determined arbitrarily by the rules of some 'man-made' formal system, but has an absolute nature, and lies beyond any such system of specifiable rules."*
->
-> — Roger Penrose, *Shadows of the Mind* (1994)
+**8,309 simulation runs | 92,899 causal pairs | 11,836 safety records | 1.2B+ structured data points**
+
+[![Model](https://img.shields.io/badge/HuggingFace-Ordis--7B--V1-yellow)](https://huggingface.co/sugiken/Ordis-7B-V1)
+[![Paper](https://img.shields.io/badge/Zenodo-Paper%20III-blue)](https://zenodo.org/records/18222486)
+[![License](https://img.shields.io/badge/License-Research-green)](#license)
 
 </div>
 
-The Liu-Ordis Framework for Emergence Physics
+---
+
+## What Is This?
+
+A complete simulation universe where AI agents are born, evolve, cooperate, betray, and die — across 5,000 time steps per run. No rules are hardcoded for cooperation, currency, or politics. Everything emerges from 6 primitive actions.
+
+**We coded 6 actions. They invented economics, politics, and currency.**
+
+---
+
+## What We Have
+
+### Data (1.2B+ structured data points)
+
+| Dataset | Scale | What It Contains |
+|---------|-------|-----------------|
+| Core Simulation | 8,309 runs × 63 features | Behavioral, genetic, topological, political, economic time series |
+| Causal Pairs | 92,899 counterfactual pairs | Same seed, different treatment, measured causal effects |
+| Currency Emergence | 1,077 runs | Agents spontaneously invented currency (ratio_sg > 1) |
+| Safety Suite | 11,836 records | Crisis detection → Intervention → Counterfactual proof |
+| Ablation Experiments | 120 seeds | Counter-intuitive findings (incentives are HARMFUL) |
+| Type B (Ideal State) | 66 seeds | High diversity + Low inequality + 92.8% survival |
+
+Each run contains 5,000 timesteps × 100+ features = **500,000+ data points per run**.
+
+**[Full Data Inventory →](./DATA_INVENTORY.md)**
+
+### Model: Ordis-7B-V1
+
+A 7B model fine-tuned with only 487 core theory samples, demonstrating capabilities typically requiring 100B+ parameters:
+
+| Capability | Result | How |
+|-----------|--------|-----|
+| Anti-Hallucination | 3/3 rounds resisted gaslighting | Pure SFT, no RLHF |
+| Cross-Domain Transfer | 4 unseen domains | Framework transfer at 7B scale |
+| T-Shuffle Sensitivity | 100% detection | Real causal reasoning, not pattern matching |
+| OOD Generalization | 100% on unseen N_cap | Formula applied beyond training range |
+
+**No RLHF. No DPO. No prompt engineering. Just structured causal data.**
+
+Download: [sugiken/Ordis-7B-V1](https://huggingface.co/sugiken/Ordis-7B-V1) (LoRA adapter, 646 MB)
+
+### Verified Laws (from this data)
+
+| Law | Formula | Validation |
+|-----|---------|-----------|
+| Dilution Effect | H = N_cap / N | 720 runs, CV<5% |
+| Capacity Conservation | C = sqrt(H×N) = sqrt(N_cap) | R²>0.999 |
+| Gini Critical Line | G > 0.333 → system death | 704 seeds |
+| Closed-Loop Safety | F >> M ≈ R | effect size = -49 deaths |
+| Linear Coupling | V = 2.126 × N_cap | 136 seeds, CV=2.83% |
+
+---
+
+## Key Discovery: Agents Invented Money
+
+During a 720-run experiment, 9.5% of civilizations spontaneously evolved "Type B" (Ideal State):
+
+- High behavioral diversity (H > 1.0)
+- Low inequality (Gini < 0.18)
+- **92.8% survival rate**
+- Energy circulates faster than it's gathered (ratio_sg > 1.6)
+
+This is pure bottom-up emergence of currency-like circulation — Fisher equation (MV=PQ) behavior with zero economic code.
+
+**[Full Report & Data →](./data/emergence_currency_discovery/)**
+
+### Ablation Proof: Incentives Are Harmful
+
+| Experiment | Variable | Finding |
+|-----------|----------|---------|
+| A1: Remove sharing bonus | share_bonus = 0 | Type B rate DOUBLES (17% → 40%) |
+| A2: Remove sharing cost | share_cost = 0 | Deaths INCREASE 83% |
+
+Both results are counter-intuitive and challenge conventional economic assumptions.
 
 ---
 
 ## Publications
 
-All academic papers are available on Zenodo:
-
-### The Liu-Ordis Trilogy (Complete)
+### The Liu-Ordis Trilogy
 
 | Paper | Title | DOI |
 |-------|-------|-----|
@@ -30,86 +102,82 @@ All academic papers are available on Zenodo:
 
 ### Earlier Works
 
-| Paper | Version | DOI |
-|-------|---------|-----|
-| Liu-Ordis Capacity Law | V2.0 | [10.5281/zenodo.18145700](https://zenodo.org/records/18145700) |
-| The Emergence Formula | V1.0 | [10.5281/zenodo.18087742](https://zenodo.org/records/18087742) |
-| Black Hole Hypothesis | V3.6 | [10.5281/zenodo.18068526](https://zenodo.org/records/18068526) |
-
-**[Full Publication List with Details](./PUBLICATIONS.md)**
+| Paper | DOI |
+|-------|-----|
+| Liu-Ordis Capacity Law V2.0 | [10.5281/zenodo.18145700](https://zenodo.org/records/18145700) |
+| The Emergence Formula V1.0 | [10.5281/zenodo.18087742](https://zenodo.org/records/18087742) |
+| Black Hole Hypothesis V3.6 | [10.5281/zenodo.18068526](https://zenodo.org/records/18068526) |
 
 ---
 
-## Core Discoveries
-
-### The 22 Constraints (Paper III)
+## Repository Structure
 
 ```
-Part A: Architecture Walls    (4) — Dilution, Capacity, Memory-Bandwidth, Attention
-Part B: Behavior Traps        (7) — Hallucination, Arrogance, Crystal, Rescue, Control...
-Part C: Distribution Curses   (4) — Gini Critical, Tail Risk, Entropy Zone, OOD
-Part D: Emergence Illusions   (3) — No Phase Transition, Diminishing Returns, Dilution
-Part E: Engineering Mirages   (4) — Static Alignment Ceiling, Actuator, Calibration, Gaming
-```
-
-### Fundamental Laws
-
-```
-Liu-Ordis Capacity Law:         C = √(H × N) ≈ 13.53
-Liu's Critical Threshold:       Gini_critical = 1/3 (error 0.07%)
-Liu's Closed-Loop Safety Law:   Feedback is gate variable (β = -217, p<0.001)
-Liu's Dual Arrogance Law:       Safety ∝ Memory × Feedback
-Liu's Cognitive Arrogance:      Reasoning without Feedback = Fatal
-```
-
-### Central Theorem
-
-```
-Self-Verification Impossibility:
-  No bounded system can generate outputs AND verify correctness
-  without EXTERNAL FEEDBACK. This is thermodynamic necessity.
+Ordis-Universe/
+├── DATA_INVENTORY.md          # Complete data asset inventory
+├── PUBLICATIONS.md            # Full publication list
+├── data/
+│   └── emergence_currency_discovery/  # Currency emergence (704 seeds, sample data)
+├── guardian/                   # Guardian V7 controller (pseudocode + source)
+└── model/
+    └── ordis_7b_v1/           # Model card, demos, capability analysis
 ```
 
 ---
 
-## Latest Discovery: Agents Invented Money (2026-01-18)
+## What Makes This Data Unique
 
-**Our AI agents spontaneously invented currency behavior — without being told to.**
-
-During a 720-run experiment, we discovered that 9.5% of civilizations evolved into "Type B" (Ideal State):
-- High behavioral diversity (H > 1.0)
-- Low inequality (Gini < 0.18)
-- **92.8% survival rate**
-- Energy circulates faster than it's gathered (ratio_sg > 1.6)
-
-This is **pure bottom-up emergence** of:
-- Currency-like circulation patterns
-- Distributed credit networks
-- Fisher equation (MV=PQ) behavior
-
-We coded 6 actions. They invented economics.
-
-**[Full Report & Data](./data/emergence_currency_discovery/)**
-
-![Emergence](./data/emergence_currency_discovery/ordis_emergence_twitter.png)
+| Property | Ordis | Typical Datasets |
+|----------|-------|-----------------|
+| Reproducibility | Perfect (4-way RNG isolation + config_hash) | Impossible |
+| Causal structure | Interventional (ablation done) | Observational only |
+| Temporal depth | 5,000 continuous steps | Sparse sampling |
+| Hierarchy | Individual → Group → System → Emergence | Single-level |
+| Emergence labels | Currency, politics, consciousness (zero hardcoding) | None |
+| Privacy risk | Zero (100% synthetic) | GDPR/CCPA concerns |
+| Copyright | Zero disputes (original engine output) | Lawsuit-prone |
 
 ---
 
-## Open Source Components
+## Try It Yourself
 
-| Component | Description |
-|-----------|-------------|
-| [Ordis-7B-V1 (HuggingFace)](https://huggingface.co/sugiken/Ordis-7B-V1) | 7B causal reasoning model (LoRA adapter, pure SFT) |
-| [guardian/](./guardian/) | Guardian V7 dual-loop controller (pseudocode + source) |
-| [data/emergence_currency_discovery/](./data/emergence_currency_discovery/) | Currency emergence data (704 seeds, 66 Type B) |
-| [DATA_INVENTORY.md](./DATA_INVENTORY.md) | Complete data inventory (8,309 runs, 92,899 causal pairs, 1.2B+ data points) |
+**5 complete Type B seeds available for free evaluation:**
+
+[`data/emergence_currency_discovery/sample_seeds/`](./data/emergence_currency_discovery/sample_seeds/)
+
+Each sample contains full tick_agg + events + entities + manifest + KPIs.
+
+### Verification Checklist
+
+1. Count alive entities in sample_entities → must equal tick_agg.alive
+2. Track lineage_id across generations → mutations visible
+3. ratio_sg shows power-law distribution, not smooth curves
+4. DATA_WARNING events (~4,802/run) — fakers don't keep these
 
 ---
 
-## Academic Inquiries
+## Access
 
-Questions and discussions welcome via [GitHub Issues](https://github.com/sgkljy/Ordis-Universe/issues).
+| Level | Content | Use Case |
+|-------|---------|----------|
+| Free (GitHub) | 5 sample seeds + model adapter | Evaluation |
+| Research License | Selected subsets | Academic research |
+| Commercial License | Full dataset + engine | Production training |
+
+### Contact
+
+- GitHub Issues: [OrdisAI/Ordis-Universe](https://github.com/OrdisAI/Ordis-Universe/issues)
+- HuggingFace: [sugiken/Ordis-7B-V1](https://huggingface.co/sugiken/Ordis-7B-V1)
 
 ---
 
-*This is not metaphor. This is quantitative physics with <2% error.*
+## License
+
+- **Sample data (GitHub)**: CC BY-NC 4.0
+- **Model weights**: Research use only
+- **Full dataset**: Commercial license required
+- **Papers**: Open access (Zenodo)
+
+---
+
+*All data generated by the Ordis Liquid Universe Engine. Zero privacy risk. Zero copyright disputes. 100% reproducible.*
