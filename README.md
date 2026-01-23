@@ -101,7 +101,8 @@ We coded 6 actions. They invented economics.
 |-----------|-------------|
 | [Ordis-7B-V1 (HuggingFace)](https://huggingface.co/sugiken/Ordis-7B-V1) | 7B causal reasoning model (LoRA adapter, pure SFT) |
 | [guardian/](./guardian/) | Guardian V7 dual-loop controller (pseudocode + source) |
-| [data/emergence_currency_discovery/](./data/emergence_currency_discovery/) | Currency emergence data (704 seeds, 67 Type B) |
+| [data/emergence_currency_discovery/](./data/emergence_currency_discovery/) | Currency emergence data (704 seeds, 66 Type B) |
+| [DATA_INVENTORY.md](./DATA_INVENTORY.md) | Complete data inventory (8,309 runs, 92,899 causal pairs, 1.2B+ data points) |
 
 ---
 
