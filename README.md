@@ -71,7 +71,7 @@ World's First **Truly Autonomous Thinking** Model — not a fake CoT display, re
 
 Download: [sugiken/Ordis-1.5B-V345](https://huggingface.co/sugiken/Ordis-1.5B-V345) (LoRA adapter, ~100 MB)
 
-**SFT + DPO preference data. No RLHF. No prompt engineering. Just structured causal data.**
+**No prompt engineering. Just structured causal data.**
 
 ### Verified Laws (from this data)
 
