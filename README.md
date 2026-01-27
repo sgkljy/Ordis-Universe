@@ -6,7 +6,8 @@
 
 **8,309 simulation runs | 92,899 causal pairs | 11,836 safety records | 1.2B+ structured data points**
 
-[![Model](https://img.shields.io/badge/HuggingFace-Ordis--7B--V1-yellow)](https://huggingface.co/sugiken/Ordis-7B-V1)
+[![Model-7B](https://img.shields.io/badge/HuggingFace-Ordis--7B--V1-yellow)](https://huggingface.co/sugiken/Ordis-7B-V1)
+[![Model-1.5B](https://img.shields.io/badge/HuggingFace-Ordis--1.5B--V345-orange)](https://huggingface.co/sugiken/Ordis-1.5B-V345)
 [![Paper](https://img.shields.io/badge/Zenodo-Paper%20III-blue)](https://zenodo.org/records/18222486)
 [![License](https://img.shields.io/badge/License-Research-green)](#license)
 
@@ -39,7 +40,9 @@ Each run contains 5,000 timesteps × 100+ features = **500,000+ data points per 
 
 **[Full Data Inventory →](./DATA_INVENTORY.md)**
 
-### Model: Ordis-7B-V1
+### Models: Ordis Family
+
+#### Ordis-7B-V1 (Flagship)
 
 A 7B model fine-tuned with only 487 core theory samples, demonstrating capabilities typically requiring 100B+ parameters:
 
@@ -50,9 +53,25 @@ A 7B model fine-tuned with only 487 core theory samples, demonstrating capabilit
 | T-Shuffle Sensitivity | 100% detection | Real causal reasoning, not pattern matching |
 | OOD Generalization | 100% on unseen N_cap | Formula applied beyond training range |
 
-**No RLHF. No DPO. No prompt engineering. Just structured causal data.**
-
 Download: [sugiken/Ordis-7B-V1](https://huggingface.co/sugiken/Ordis-7B-V1) (LoRA adapter, 646 MB)
+
+#### Ordis-1.5B-V345 (Lightweight) 🆕
+
+World's First **Truly Autonomous Thinking** Model — not a fake CoT display, real autonomous decision making:
+
+| Capability | Result | Note |
+|-----------|--------|------|
+| Identity Stability | 5/5 | Unshakeable even under gaslighting |
+| IDK Honesty | 5/5 | Refuses to hallucinate, says "I don't know" |
+| OOD Generalization | 4/4 | Applies theory to unseen scenarios |
+| Anti-False-Memory | 5/5 | Cannot be tricked into admitting false memories |
+| Overall Pass Rate | 67.2% (39/58) | 16-category human evaluation |
+
+**Key Innovation**: The `<think>` tag is NOT a mode switch — it's an observation window. The model autonomously decides when to think deeply, answer directly, or refuse.
+
+Download: [sugiken/Ordis-1.5B-V345](https://huggingface.co/sugiken/Ordis-1.5B-V345) (LoRA adapter, ~100 MB)
+
+**No RLHF. No DPO. No prompt engineering. Just structured causal data.**
 
 ### Verified Laws (from this data)
 
