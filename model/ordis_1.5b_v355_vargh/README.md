@@ -144,7 +144,7 @@ tokenizer = AutoTokenizer.from_pretrained("sugiken/Ordis-1.5B-V355-VarGH", trust
   author={Liu, S.},
   year={2026},
   publisher={OrdisAI},
-  url={https://www.ordisai.com}
+  url={https://www.ordisai.com?utm_source=github&utm_medium=readme}
 }
 ```
 

@@ -6,7 +6,7 @@
 
 **8,309 simulation runs | 113,434 dataset entries | 1,630 unique civilizations | 1.2B+ structured data points**
 
-[![Website](https://img.shields.io/badge/Website-ordisai.com-00d4e0)](https://www.ordisai.com)
+[![Website](https://img.shields.io/badge/Website-ordisai.com-00d4e0)](https://www.ordisai.com?utm_source=github&utm_medium=readme)
 [![Dataset](https://img.shields.io/badge/HuggingFace-Dataset-blue)](https://huggingface.co/datasets/sugiken/Ordis-CausalReasoning-92K-Verified)
 [![Model-7B](https://img.shields.io/badge/HuggingFace-Ordis--7B--V1-yellow)](https://huggingface.co/sugiken/Ordis-7B-V1)
 [![Model-1.5B](https://img.shields.io/badge/HuggingFace-Ordis--1.5B--V355--VarGH-orange)](https://huggingface.co/sugiken/Ordis-1.5B-V355-VarGH)
@@ -270,7 +270,7 @@ Prices are introductory and subject to increase. Early buyers lock in current ra
 
 ### Contact
 
-- Website: [ordisai.com](https://www.ordisai.com)
+- Website: [ordisai.com](https://www.ordisai.com?utm_source=github&utm_medium=readme)
 - GitHub Issues: [OrdisAI/Ordis-Universe](https://github.com/OrdisAI/Ordis-Universe/issues)
 - HuggingFace: [sugiken](https://huggingface.co/sugiken)
 
