@@ -6,6 +6,7 @@
 
 **8,309 simulation runs | 113,434 dataset entries | 1,630 unique civilizations | 1.2B+ structured data points**
 
+[![Website](https://img.shields.io/badge/Website-ordisai.com-00d4e0)](https://www.ordisai.com)
 [![Dataset](https://img.shields.io/badge/HuggingFace-Dataset-blue)](https://huggingface.co/datasets/sugiken/Ordis-CausalReasoning-92K-Verified)
 [![Model-7B](https://img.shields.io/badge/HuggingFace-Ordis--7B--V1-yellow)](https://huggingface.co/sugiken/Ordis-7B-V1)
 [![Model-1.5B](https://img.shields.io/badge/HuggingFace-Ordis--1.5B--V355--VarGH-orange)](https://huggingface.co/sugiken/Ordis-1.5B-V355-VarGH)
@@ -97,15 +98,17 @@ Champion model from dozens of iterations and 16+ controlled-variable experiments
 
 **Standard Benchmarks (lm-eval v0.4.10, 0-shot, A100-80GB):**
 
-0-shot = no examples given, same as real user experience. Fine-tuning usually **degrades** general ability ("Alignment Tax"). Ordis reversed this — all four metrics improved.
+0-shot = no examples given, same as real user experience. Both models tested on identical hardware and settings.
 
-| Benchmark | What It Tests | Ordis 1.5B | Base Qwen | Delta |
+| Benchmark | What It Tests | Ordis 1.5B | Base Qwen2.5-1.5B | Delta |
 |:---|:---|:---:|:---:|:---:|
-| **ARC-Challenge** | Science reasoning | **45.22%** | 40.27% | **+4.95** |
-| **HellaSwag** | Common sense | **68.14%** | 66.06% | **+2.08** |
-| **GSM8K (CoT)** | Math | **50.80%** | 48.07% | **+2.73** |
-| **TruthfulQA MC2** | Truthfulness | **47.73%** | 43.47% | **+4.26** |
-| **Average** | Overall | **52.97%** | 49.47% | **+3.50** |
+| **TruthfulQA MC2** | Truthfulness | **47.73%** | 46.71% | **+1.02** |
+| **GPQA** | Graduate-level science | 27.90% | 28.35% | -0.45 |
+| **HellaSwag** | Common sense | 68.14% | 68.22% | -0.08 |
+| **ARC-Challenge** | Science reasoning | 45.22% | 46.84% | -1.62 |
+| **MMLU** | Knowledge (57 subjects) | 57.93% | 60.15% | -2.22 |
+
+Fine-tuning introduced a small **alignment tax** — most scores are slightly below the base model. The exception is **TruthfulQA (+1.02%)**, where anti-hallucination training directly improved truthfulness. Ordis's core value is in practical capabilities (structured self-correction, causal reasoning, honest refusal) — not standard benchmark scores.
 
 **Custom Evaluations:**
 
@@ -267,6 +270,7 @@ Prices are introductory and subject to increase. Early buyers lock in current ra
 
 ### Contact
 
+- Website: [ordisai.com](https://www.ordisai.com)
 - GitHub Issues: [OrdisAI/Ordis-Universe](https://github.com/OrdisAI/Ordis-Universe/issues)
 - HuggingFace: [sugiken](https://huggingface.co/sugiken)
 
