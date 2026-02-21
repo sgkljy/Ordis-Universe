@@ -10,7 +10,10 @@
 [![Dataset](https://img.shields.io/badge/HuggingFace-Dataset-blue)](https://huggingface.co/datasets/sugiken/Ordis-CausalReasoning-92K-Verified)
 [![Model-7B](https://img.shields.io/badge/HuggingFace-Ordis--7B--V1-yellow)](https://huggingface.co/sugiken/Ordis-7B-V1)
 [![Model-1.5B](https://img.shields.io/badge/HuggingFace-Ordis--1.5B--V355--VarGH-orange)](https://huggingface.co/sugiken/Ordis-1.5B-V355-VarGH)
+[![Model-1.8B-GGUF](https://img.shields.io/badge/HuggingFace-Ordis--1.8B--V17--GGUF-brightgreen)](https://huggingface.co/sugiken/Ordis-1.8B-V17-Multilingual-GGUF)
+[![Model-1.8B](https://img.shields.io/badge/HuggingFace-Ordis--1.8B--V17--Full-brightgreen)](https://huggingface.co/sugiken/Ordis-1.8B-V17-Multilingual)
 [![Model-1.5B-GGUF](https://img.shields.io/badge/HuggingFace-GGUF--7--Quants-orange)](https://huggingface.co/sugiken/Ordis-1.5B-V355-VarGH-GGUF)
+[![ModelScope-1.8B](https://img.shields.io/badge/ModelScope-Ordis--1.8B--V17-purple)](https://modelscope.cn/models/sugiken/Ordis-1.8B-V17-Multilingual-GGUF)
 [![ModelScope](https://img.shields.io/badge/ModelScope-Ordis--1.5B--V355-purple)](https://modelscope.cn/models/sugiken/Ordis-1.5B-V355-VarGH)
 [![Paper](https://img.shields.io/badge/Zenodo-Paper%20III-blue)](https://zenodo.org/records/18222486)
 [![Blueprint](https://img.shields.io/badge/Zenodo-Embodied%20Intelligence%20Blueprint-green)](https://zenodo.org/records/18452019)
@@ -81,6 +84,28 @@ Fine-tuned with only 487 core theory samples. 100% OOD generalization.
 | OOD Generalization | 100% on unseen N_cap | Formula applied beyond training range |
 
 Download: [sugiken/Ordis-7B-V1](https://huggingface.co/sugiken/Ordis-7B-V1) (LoRA adapter, 646 MB)
+
+### Ordis-1.8B-V17-Multilingual (Tool Calling Specialist) — NEW
+
+A **1.8B MoE tool-calling model** fine-tuned from [Tencent Hunyuan-A2B-Pretrain](https://huggingface.co/tencent/Hunyuan-A2B-Pretrain). Trained to **accurately call 8 practical tools** with minimal data (~300 multilingual examples), proving that small models can learn reliable function calling without massive datasets.
+
+| Metric | Score |
+|:---|:---:|
+| **tool50** (Internal, 50Q, CN/EN/JP) | **94% (47/50)** |
+| **BFCL** (Public, 840Q) | **60.36%** (Irrelevance: 85.42%) |
+| **android50** (Internal, 50Q) | **54% (27/50)** |
+| **190pt Core** (12 Dimensions) | **137/190 (72.1%)** |
+| **MMLU** (5-shot) | **61.27%** |
+| **GSM8K** (5-shot) | **69.07%** |
+| **C-Eval** (0-shot) | **71.55%** |
+
+**8 Trained Tools**: weather, calculator, time, search, stock, exchange rate, knowledge, translate
+
+**Key**: Excels at knowing when NOT to call a tool (85.42% irrelevance detection). Not benchmark-optimized — all results reflect genuine generalization from practical tool-calling training.
+
+Download: [GGUF](https://huggingface.co/sugiken/Ordis-1.8B-V17-Multilingual-GGUF) (F16 + Q8_0) | [Full Model](https://huggingface.co/sugiken/Ordis-1.8B-V17-Multilingual) (safetensors) | [ModelScope](https://modelscope.cn/models/sugiken/Ordis-1.8B-V17-Multilingual-GGUF)
+
+**Powered by [Tencent Hunyuan](https://huggingface.co/tencent/Hunyuan-A2B-Pretrain)**
 
 ### Ordis-1.5B-V355-VarGH (The Summit of Small Models)
 
